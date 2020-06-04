@@ -1,0 +1,196 @@
+.container_fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-family: 'Noto Serif', serif;
+}
+.navbar-nav li a:hover{
+    color: #74BE4F;
+}
+.navbar-nav .active{
+    color: #74BE4F;
+}
+.dropdown-menu a{
+    line-height: 30px;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.carousel-item{
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 120px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size:40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+.carousel-caption p{
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.carousel-item img{
+    -webkit-filter: brightness(0.9);
+}
+.finance{
+    display: flex;
+  justify-content: space-between;
+  background-color: #eaeeed;
+}
+.media-body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.KTA{
+    margin-top: 160px;
+    background-color: white;
+ }
+ .KTA h2{
+     text-align: center;
+     font-family: 'Merriweather', serif;
+     font-weight: 700px;
+     text-decoration: underline;
+     text-decoration-color: #74BE4F;
+ 
+ }
+ .KTA p{
+     font-family: 'Crimson Text', serif;
+     font-size: medium;
+ }
+ .KTAdescr{
+     padding-top: 60px;
+     display: flex;
+     justify-content: center;
+ }
+ .KTAdescr img{
+     width: 400px;
+ }
+ .KTAdescr p{
+     text-align: center;
+     font-size: 20px;
+     padding-top: 50px;
+     padding-left: 20px;
+ }
+ .KTA button{
+     margin-left: 700px;
+     position: relative;
+     bottom: 100px;
+     margin-top: 0;
+ }
+ .instructor{
+    background: url("../images/instructor1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 0;
+    background-size: cover;
+}
+.instructor h1{
+    text-align: center;
+    padding-top: 80px;
+    line-height: 120px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700px;
+    text-decoration: underline;
+    text-decoration-color: #74BE4F;
+}
+.instructor p{
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    
+}
+#myForm label{
+    font-family: 'Arimo', sans-serif;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 900px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    /* margin: 5px 0 22px 0; */
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, #apply:hover {
+    opacity: 1;
+  }
+  ::placeholder{
+    font-family: 'Crimson Text', serif;
+  }
+footer{
+    background-color: #dce4e2;
+}
+.footer-copyright{
+    background-color: #c5ccca;
+}
