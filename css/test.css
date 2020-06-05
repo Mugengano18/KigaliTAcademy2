@@ -105,3 +105,16 @@ footer{
 .footer-copyright{
     background-color: #c5ccca;
 }
+@media only screen and (max-width: 600px){
+    .card{
+        margin-top: 40px;
+    }
+    .courses{
+        height: 2500px;
+    }
+  }
+  @media only screen and (max-width: 900px){
+    .courses{
+        height: 2500px;
+    }
+  }

@@ -74,9 +74,9 @@ a:hover{
 .courses{
     margin-top: 60px;
 }
-.courses card{
+/* .courses card{
     display: flex;
-}
+} */
 .card-title{
     font-family: 'Merriweather', serif;
     font-weight: 700px;
@@ -87,4 +87,9 @@ footer{
 }
 .footer-copyright{
     background-color: #c5ccca;
+}
+@media only screen and (max-width: 600px){
+  .card{
+      margin-top: 40px;
+  }
 }

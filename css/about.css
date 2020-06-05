@@ -55,18 +55,15 @@ h1{
   color: #74BE4F;
 }
 a:hover{
-    border-bottom: 1px transparent;
-    text-decoration: none;
-    
-}
-a:active{
-    color: white;
-}
-a:visited{
-    color: currentColor;
+  border-bottom: 1px transparent;
+  text-decoration: none;
+  
 }
 a:hover{
-    color: #74BE4F;
+  color: #74BE4F;
+}
+#home:hover{
+  color: #74BE4F;
 }
 .mvision{
     margin-top: 90px;
@@ -115,9 +112,9 @@ a:hover{
     font-size: 20px;
     text-align: center;
 }
-#findcourses{
+/* #findcourses{
     margin-left: 500px;
-}
+} */
 
 #Team{
     margin-top: 100px;
@@ -236,3 +233,4 @@ a:hover{
 .footer-copyright{
     background-color: #c5ccca;
 }
+
