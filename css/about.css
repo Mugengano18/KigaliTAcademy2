@@ -112,6 +112,8 @@ a:hover{
 }
 .description p{
     font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    text-align: center;
 }
 #findcourses{
     margin-left: 500px;

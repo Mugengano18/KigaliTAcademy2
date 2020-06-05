@@ -68,13 +68,19 @@ a:visited{
 a:hover{
     color: #74BE4F;
 }
+#par1{
+    font-family: 'Crimson Text', serif;
+}
 .courses{
     margin-top: 60px;
 }
 .courses card{
     display: flex;
 }
-
+.card-title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700px;
+}
 footer{
     background-color: #dce4e2;
     margin-top: 50px;
