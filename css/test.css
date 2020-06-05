@@ -118,3 +118,6 @@ footer{
         height: 2500px;
     }
   }
+  #par1,#par2,#par3,#par4{
+      display: none;
+  }

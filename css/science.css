@@ -130,3 +130,19 @@ a:hover{
 .footer-copyright{
     background-color: #c5ccca;
 }
+@media only screen and (max-width: 600px){
+  .card{
+      margin-top: 40px;
+  }
+  .courses{
+      height: 2000px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .card{
+    margin-top: 40px;
+}
+  .courses{
+      height: 2000px;
+  }
+}
