@@ -32,7 +32,7 @@
 }
 
 .about {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/instructor.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/i1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -83,7 +83,7 @@ a:hover{
     padding: .5rem;
 }
 .courses{
-    height: 1300px;
+    height: 1000px;
 }
 #row2{
     margin-top: 50px;

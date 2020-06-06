@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Crimson+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
   <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/logo.jpg">
 </head>
@@ -44,7 +46,7 @@
                 Apply
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a href="#">Teacher</a>
+                <a href="#apply">Teacher</a>
                 <a href="https://forms.gle/nMbnnUro7hspHNRz9" target="_blank">Student</a>
               </div>
             </li>
@@ -63,35 +65,26 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/i1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <h5>first slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1>Kigali Tutoring Academy</h1>
+            <p>Your Success Is Our Success</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/i2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1>Start where you are. Use what you have. Do what you can.</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/i3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/i4.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1>Spotlight on quality education for all during Covid-19 crisis</h1>
+            <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
           </div>
         </div>
       </div>
@@ -136,9 +129,9 @@
         </div>
         <div class="text-center" id="findmore">
           <a href="about.html"><button type="button" class="btn btn-success"
-            style="font-family: 'Crimson Text', serif;">Find out More</button></a>
+              style="font-family: 'Crimson Text', serif;">Find out More</button></a>
         </div>
-        
+
 
       </Section>
     </div>
@@ -150,10 +143,9 @@
         <p id="me">We welcome every bright instructor who would be willing to help the students to revise their
           studies and those who are able to motivate any child,on learning and not waste there time and
           future.</p>
-          <div class="text-center">
-            <button type="button" class="btn btn-success" onclick="openForm()"
-            id="apply">Apply Now!</button>
-          </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-success" onclick="openForm()" id="apply">Apply Now!</button>
+        </div>
         <div class="form-popup" id="myForm">
           <form class="form-container">
             <h1>Register below</h1>
@@ -178,6 +170,15 @@
       </section>
     </div>
     <!--End of the instructor page-->
+
+
+
+
+
+
+
+
+
     <!-- Footer -->
     <footer>
 
@@ -326,30 +327,30 @@
    https://firebase.google.com/docs/web/setup#available-libraries -->
 
   <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-          apiKey: "AIzaSyAywPQ_pq-J1G1Ye0Dug2ECKUcbGdk23No",
-          authDomain: "ktacademy-1c921.firebaseapp.com",
-          databaseURL: "https://ktacademy-1c921.firebaseio.com",
-          projectId: "ktacademy-1c921",
-          storageBucket: "ktacademy-1c921.appspot.com",
-          messagingSenderId: "295815473208",
-          appId: "1:295815473208:web:eb42fb43a6d49b161b5ecd"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      var database = firebase.database();
-      var ref = database.ref("registration");
-      // var ref2 = database.ref("suggestions");
-      function getData() {
-          var data = {
-              name: document.getElementById("name1").value,
-              email: document.getElementById("email1").value,
-              description: document.getElementById("message").value,
-              Curriculumv: document.getElementById("cv").value,
-          }
-          ref.push(data);
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAywPQ_pq-J1G1Ye0Dug2ECKUcbGdk23No",
+      authDomain: "ktacademy-1c921.firebaseapp.com",
+      databaseURL: "https://ktacademy-1c921.firebaseio.com",
+      projectId: "ktacademy-1c921",
+      storageBucket: "ktacademy-1c921.appspot.com",
+      messagingSenderId: "295815473208",
+      appId: "1:295815473208:web:eb42fb43a6d49b161b5ecd"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+    var ref = database.ref("registration");
+    // var ref2 = database.ref("suggestions");
+    function getData() {
+      var data = {
+        name: document.getElementById("name1").value,
+        email: document.getElementById("email1").value,
+        description: document.getElementById("message").value,
+        Curriculumv: document.getElementById("cv").value,
       }
+      ref.push(data);
+    }
       // function savedata() {
       //     var informations = {
       //         name: document.getElementById("inputValid").value,
