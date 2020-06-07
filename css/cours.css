@@ -3,8 +3,8 @@
     padding-left:0;
     margin-right:auto;
     margin-left:auto
-}
-.navbar-nav li a{
+   }
+   .navbar-nav li a{
     text-decoration: none;
     color: black;
     margin-left: 20px;
@@ -12,25 +12,25 @@
     text-transform: uppercase;
     padding-right: 50px;
     font-family: 'Noto Serif', serif;
-}
-.navbar-nav li a:hover{
+   }
+   .navbar-nav li a:hover{
     color: #74BE4F;
-}
-.navbar-nav .active{
+   }
+   .navbar-nav .active{
     color: #74BE4F;
-}
-.dropdown-menu a{
+   }
+   .dropdown-menu a{
     line-height: 30px;
     font-size: 15px;
     text-transform: lowercase;
-}
-.navbar-light .navbar-brand{
+   }
+   .navbar-light .navbar-brand{
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-}
-.about {
+   }
+   .about {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/i1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,56 +40,56 @@
     color: white;
     padding-top: 130px;
     font-family: 'Noto Serif', serif;
-}
-
-h1{
+   }
+   
+   h1{
     font-size: 45px;
-}
-#bug{
+   }
+   #bug{
     text-align: center;
     color:white;
     font-family: 'Noto Serif', serif;
     font-size: 25px;
-}
-#bug .active{
+   }
+   #bug .active{
     color: #74BE4F;
-}
-a:hover{
+   }
+   a:hover{
     border-bottom: 1px transparent;
     text-decoration: none;
-    
-}
-a:active{
+   
+   }
+   a:active{
     color: white;
-}
-a:visited{
+   }
+   a:visited{
     color: currentColor;
-}
-a:hover{
+   }
+   a:hover{
     color: #74BE4F;
-}
-#par1{
+   }
+   #par1{
     font-family: 'Crimson Text', serif;
-}
-.courses{
+   }
+   .courses{
     margin-top: 60px;
-}
-/* .courses card{
+   }
+   /* .courses card{
     display: flex;
-} */
-.card-title{
+   } */
+   .card-title{
     font-family: 'Merriweather', serif;
     font-weight: 700px;
-}
-footer{
+   }
+   footer{
     background-color: #dce4e2;
     margin-top: 50px;
-}
-.footer-copyright{
+   }
+   .footer-copyright{
     background-color: #c5ccca;
-}
-@media only screen and (max-width: 600px){
-  .card{
-      margin-top: 40px;
-  }
-}
+   }
+   @media only screen and (max-width: 600px){
+    .card{
+    margin-top: 40px;
+    }
+   }
