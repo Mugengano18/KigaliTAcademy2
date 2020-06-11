@@ -270,28 +270,52 @@ footer{
 }
 
 @media only screen and (max-width: 900px) {
-    /* .carousel-item{
-        height: 600px;
-        background: no-repeat;
-        -webkit-background-size:cover;
-        background-size: cover;
+    .media-body{
+        display: none;
     }
-    .carousel-item h1{
-        text-align: center;
-        padding-top: 50px;
-        font-size: 20px;
-    }
-    .carousel-item p{
-        text-align: center;
-        font-size: 10px;
-    } */
 
-    /* .carousel-caption h1{
+    .KTAdescr img{
         display: none;
     }
-    .carousel-caption p{
-        display: none;
-    } */
+    .slider{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 115vh;
+        animation: slide 10s infinite;
+    }
+    #findmore{
+        margin-top: 160px;
+        margin-left: auto;
+    }
+    .instructor{
+        background: url("../images/instructor1.jpg");
+        height: 1200px;
+        background-repeat: no-repeat;
+        margin-top: 200px;
+        margin-left: 0;
+        background-size: cover;
+        padding-top: 200px;
+    }
+    .instructor p{
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .principal h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        padding-top: 80px;
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
     .media-body{
         display: none;
     }
@@ -325,5 +349,11 @@ footer{
         font-size: 25px;
         text-align: center;
         
+    }
+    .principal h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        padding-top: 80px;
     }
 }
