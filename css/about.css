@@ -39,32 +39,41 @@
     text-align: center;
     color: white;
     padding-top: 130px;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-h1{
-  font-size: 45px;
-}
-#bug{
-  text-align: center;
-  color:white;
-  font-family: 'Noto Serif', serif;
-  font-size: 25px;
-}
-#bug .active{
-  color: #74BE4F;
-}
-a:hover{
-  border-bottom: 1px transparent;
-  text-decoration: none;
-  
-}
-a:hover{
-  color: #74BE4F;
-}
-#home:hover{
-  color: #74BE4F;
-}
+    font-family: 'Noto Serif', serif;
+   }
+   
+   h1{
+    font-size: 45px;
+   }
+   #bug{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+   }
+   #bug .active{
+    color: #74BE4F;
+    text-decoration: none;
+   }
+   #bug :hover{
+    color: #74BE4F;
+    text-decoration: none;
+   }
+   a:hover{
+    border-bottom: 1px transparent;
+    text-decoration: none;
+   
+   }
+   a:active{
+    color: white;
+   }
+   a:visited{
+    color: currentColor;
+    text-decoration: none;
+   }
+   a:hover{
+    color: #74BE4F;
+    text-decoration: none;
+   }
 .mvision{
     margin-top: 90px;
     display: flex;

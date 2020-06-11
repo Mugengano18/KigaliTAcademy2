@@ -24,12 +24,78 @@
     font-size: 15px;
     text-transform: lowercase;
 }
-.carousel-item{
+.load{
+    animation: slide 5s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+    animation: slide 10s infinite;
+}
+.content{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.principal p{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+@keyframes slide{
+    0%{
+        background-image: url("../images/i1.jpg");
+    }
+    40%{
+        background-image: url("../images/i2.jpg");
+    }
+    40.01%{
+        background-image: url("../images/i3.jpg");
+    }
+    80%{
+        background-image: url("../images/i4.jpg");
+    }
+    80.01%{
+        background-image: url("../images/i9.jpeg");
+    }
+    100%{
+        background-image: url("../images/instructor.jpeg");
+    }
+    /* 60.01%{
+        background-image: url("../images/Bios.jpeg");
+    }
+    80%{
+        background-image: url("../images/chem.jpeg");
+    }
+    80.01%{
+        background-image: url("../images/franc.jpg");
+    }
+    100%{
+        background-image: url("../images/IMG-20200530-WA0012.jpg");
+    } */
+}
+/* .carousel-item{
     height: 95vh;
     background: no-repeat center scroll;
     -webkit-background-size:cover;
     background-size: cover;
-}
+} */
 /* .carousel-caption{
     position: absolute;
     right: 15%;
@@ -44,7 +110,7 @@
 /* .carousel-caption h1{
     /* font-size:30px; */
 
-.carousel-caption p{
+/* .carousel-caption p{
     font-family: 'Zilla Slab', serif;
     font-size: 30px;
 }
@@ -56,7 +122,7 @@
     font-family: 'Cormorant Garamond', serif;
     padding-top: 1000px;
     font-weight: bold;
-}
+} */
 /* .carousel-caption p{
     width: 75%;
     margin: auto;
@@ -204,7 +270,7 @@ footer{
 }
 
 @media only screen and (max-width: 900px) {
-    .carousel-item{
+    /* .carousel-item{
         height: 600px;
         background: no-repeat;
         -webkit-background-size:cover;
@@ -218,7 +284,7 @@ footer{
     .carousel-item p{
         text-align: center;
         font-size: 10px;
-    }
+    } */
 
     /* .carousel-caption h1{
         display: none;
@@ -233,19 +299,26 @@ footer{
     .KTAdescr img{
         display: none;
     }
-    .KTA button{
-        position: relative;
-        top: 50px;
-        margin-top: 0;
-        right: 300px;
+    .slider{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 105vh;
+        animation: slide 10s infinite;
+    }
+    #findmore{
+        margin-top: 160px;
+        margin-left: auto;
     }
     .instructor{
         background: url("../images/instructor1.jpg");
-        height: 800px;
+        height: 1200px;
         background-repeat: no-repeat;
         margin-top: 200px;
         margin-left: 0;
         background-size: cover;
+        padding-top: 200px;
     }
     .instructor p{
         font-family: 'Crimson Text', serif;
